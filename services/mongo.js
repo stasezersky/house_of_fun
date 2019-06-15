@@ -3,7 +3,7 @@ class Mongo {
         const { MongoClient } = require('mongodb')
         return MongoClient.connect(connectionString, { useNewUrlParser: true })
             .catch((err) => {
-                log.err(err.message, err);
+                log.error(err.message, err);
 
             })
     }
