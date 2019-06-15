@@ -1,0 +1,26 @@
+{
+  "name": "house_of_fun",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next front_end",
+    "start": "node app.js",
+    "app": "npm-run-all --parallel dev start"
+  },
+  "keywords": [],
+  "author": "stasE",
+  "license": "ISC",
+  "dependencies": {
+    "bunyan": "1.8.12",
+    "koa": "2.7.0",
+    "koa-bodyparser": "4.2.1",
+    "koa-cors": "0.0.16",
+    "koa-router": "7.4.0",
+    "mongodb": "3.2.7",
+    "next": "8.1.0",
+    "npm-run-all": "4.1.5",
+    "react": "16.8.6",
+    "react-dom": "16.8.6"
+  }
+}
