@@ -1,6 +1,6 @@
 # House of Fun App
 
-Please make sure you are using Node 7.6 or higher
+Please make sure you are using Node 7.6 or higher and that you have MongoDB installed and running `mongod` in bakground on you `mongodb://127.0.0.1:27017`
 
 To Start run `npm install` and then `npm run app`
 now you can go to `http://localhost:3000` and test the app by filling the fields and trying to insert new alien records or by querying the alien DB (__if__ you leave empty fields in the query section and press the `get` button you will retrive all the records of recorded aliens).
