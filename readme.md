@@ -8,7 +8,7 @@ now you can go to `http://localhost:3000` and test the app by filling the fields
 You can also shoot the backend with Postman or other manual HTTP client at `http://localhost:4000/insert` with POST method to insert new records or `http://localhost:4000/aliens?id=101` to get all aliens that alien with id 101 supervises. Warriors are supervised by commanders and commnaders supervised by chiefs.
 
 Here is the schema of the db 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![db schema](https://github.com/stasezersky/house_of_fun/blob/master/DBscheme.jpg)
 
 Behind the scene I run two processes - one is the backend and another one for the frontend.
 * The DB used here is MongoDB and the official MongoDB node.js client 
